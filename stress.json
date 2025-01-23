@@ -1,0 +1,22 @@
+{
+   "vsan.health.hcl.override.esxrelease": "ESXi 8.0",
+   "vsan.health.hcl.hiderealcontrollers":true,
+   "vsan.health.hcl.attachrealstoragepooleligibledisks":true,
+   "vsan.health.hcl.fake.controllers":[{
+      "deviceName":"mockedNvmeCertified",
+      "driverName":"nvme_pcie",
+      "driverVersion":"1.2.4.1-1vmw.702.1.0.44910359",
+      "deviceDisplayName":"Mocked Certified Nvme Device",
+      "vendorId":5197,
+      "deviceId":43044,
+      "subVendorId":4136,
+      "subDeviceId":8481,
+      "pciAddress":"99:99:99:99",
+      "Firmware Version":"2.3.0",
+      "Firmware Build":"1.0",
+      "productId":"MO001600KWJSN",
+      "diskCapacity":1600,
+      "usedByVsan": true,
+      "controllerType": "NVMe"
+   }]
+}
